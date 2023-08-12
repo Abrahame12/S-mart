@@ -11,7 +11,7 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-public class MainActivity extends AppCompatActivity {
+public class main_screen extends AppCompatActivity {
     private ToggleButton toggleButton;
     private TextView textView;
 
