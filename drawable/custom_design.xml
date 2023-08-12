@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- circle_with_dashed_outline.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Brown circle background -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="#B6AB4A" />
+        </shape>
+    </item>
+
+    <!-- Dashed outline -->
+    <item
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp"
+        android:left="2dp">
+        <shape
+            android:shape="oval">
+            <stroke
+                android:width="4dp"
+                android:color="#000000"
+                android:dashWidth="10dp"
+                android:dashGap="10dp" />
+        </shape>
+    </item>
+
+</layer-list>
